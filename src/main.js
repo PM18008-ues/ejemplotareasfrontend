@@ -5,8 +5,10 @@ import '@babel/polyfill'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
+
+
 //url del backend recuerda quitar cualquier pleca del final / quitarla
-axios.defaults.baseURL = process.env.BACKEND || "https://ejemplotareas.us-south.cf.appdomain.cloud"
+axios.defaults.baseURL = process.env.BACKEND || "https://backazure.melvinportillo.me"
 //axios.defaults.baseURL= process.env.BACKEND || "http://backend.io"
 
 
